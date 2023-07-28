@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background: linear-gradient(-45deg, rgb(4, 4, 176), #9b36e4, #c1e440, #0cd2c2, rgb(224, 80, 80), orange);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 25%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 25% 75%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1{
+    color: blue;
+}
+
+.link {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bolder;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+
+
+h5 {
+    color: lightblue;
+}
+
+p {
+    color: lightblue;
+}
+
+button {
+    color: lightblue;
+    background-color: blue;
+}
+
+label {
+    color: lightblue;
+}
+
+
+/* dashboard */
+.dash_head {}
+
+.add_new {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.add_new:hover {
+    transform: scale(1.3);
+    background-color: darkblue;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+/* Insured */
+h3 {
+    color: rgb(124, 206, 234);
+    text-decoration: none;
+}
+
+h3:hover {
+    font-size: 2.7rem;
+}
+
+.insured_name {
+    margin-top: 50px;
+}
+
+.name {
+    text-decoration: none;
+}
+
+.delete {
+    background-color: rgb(8, 8, 121);
+    box-shadow: 2px 2px 2px black;
+}
+
+.delete:hover {
+    transform: scale(1.2);
+    background-color: darkblue;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+#image{
+    width: 50%;
+}
+
+.company{
+    color: blue;
+}
+
+/* add */
+
+.label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(73, 31, 145);
+}
+
+.add {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+.add:hover {
+    transform: scale(1.2);
+    background-color: rgb(2, 2, 72);
+    color: white;
+}
+
+.add_div {
+    margin-top: 10px;
+    display: flex;
+    gap: none;
+}
+
+input {
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font: bold;
+}
+
+input:hover {
+    background-color: lightgrey;
+}
+
+input:focus {
+    background-color: lightgrey;
+}
+
+.go_home {
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.go_home:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+.err {
+    color: rgb(88, 20, 20);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/* edit */
+.edit {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+.edit:hover {
+    transform: scale(1.2);
+    background-color: darkblue;
+    color: white;
+}
+
+
+
+.upload {
+    height: 35px;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+#upload_div {
+    margin-top: 50px;
+}
+
+/* viewOne */
+.edit{
+
+}
+
+#file{
+    width: 350px;
+}
+
+#h1 {
+    color: blue;
+    font-weight: 700;
+}
+
